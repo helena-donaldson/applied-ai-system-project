@@ -25,12 +25,25 @@ a "Game over. Start a new game to try again" message to appear even though I did
 
 ---
 
+I used Copilot.
+
+Correct suggestion: The AI suggested to correct an instance of hard-coding where the guessing range was hard-coded as 1-100 instead of being based on the difficulty level. I went to the line it mentioned in order to verify that this issue did exist, and it did. I changed it based on the AI's recommendation to rely on the difficulty level range instead. Then, I checked the range display in the game, and it changed after that.
+
+Incorrect suggestion: The AI suggested that I set the
+difficulty level of Hard to 1 to 200 instead of 1 to 100 and switching Normal back to 1 to 50. I verified that this suggestion was wrong when I checked what the range dropdown listed that the correct score ranges should be. It simply inferred that Hard should be 1 to 200 instead of checking to see that the dropdown referenced it as 1 to 100.
+
 ## 3. Debugging and testing your fixes
 
 - How did you decide whether a bug was really fixed?
 - Describe at least one test you ran (manual or using pytest)  
   and what it showed you about your code.
 - Did AI help you design or understand any tests? How?
+
+I verified that the bugs were really fixed by adding to the test suite tests for each of the bugs I fixed as well as manually testing the game to ensure the the score ranges were fixed as well as the guessing logic was fixed.
+
+I created tests using pytest for the get range for difficulty function, ensuring that it returned the correct range for all three of the modes. This ensured that I knew the issue of the mixed up ranges that originally was present ended up getting fixed.
+
+AI helped me understand the tests because I didn't know originally how to use pytests, so it helped me use the correct command to run them.
 
 ---
 
