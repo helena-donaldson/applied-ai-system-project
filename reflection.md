@@ -8,6 +8,13 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
 
+1. "Go Higher" and "Go Lower" would be hinted nonsensically. For example, I would be at the lower limit (1), but it would tell me to go lower.
+
+2. Starting a new game would cause
+a "Game over. Start a new game to try again" message to appear even though I did start a new game.
+
+3. Even though I changed the difficulty mode, which changes the range of numbers to be guessed, the display value in the middle didn't change its range (not showing 1 to 20 when I changed it to easy).
+
 ---
 
 ## 2. How did you use AI as a teammate?
