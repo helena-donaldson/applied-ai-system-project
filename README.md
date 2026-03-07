@@ -25,13 +25,18 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [X] Describe the game's purpose.
+This game's purpose is to guess the hidden value, and the game provides hints as to whether you should guess higher or lower.
+- [X] Detail which bugs you found.
+I found bugs relating to the difficulty range (whether the number should be between 1 and 20 vs 1 and 50 vs 1 and 100) as well as bugs relating to the guessing logic (where odd type casting led to issues of identifying whether the guess was higher or lower than the actual value).
+- [X] Explain what fixes you applied.
+I corrected the difficulty range as well as removed the odd type casting and added tests in a pytest suite relating to both bug fixes.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [X] [Insert a screenshot of your fixed, winning game here]
+
+![Winning Game Result](image.png)
 
 ## 🚀 Stretch Features
 

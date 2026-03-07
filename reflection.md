@@ -51,6 +51,8 @@ AI helped me understand the tests because I didn't know originally how to use py
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 
+Streamlit reruns causes the script to be run again when users interact with the UI. Session state helps solve this by storing values between the reruns, allowing for important variables like attempts made to persist and increment properly whenever the user pressed the button to make a guess.
+
 ---
 
 ## 5. Looking ahead: your developer habits
@@ -59,3 +61,9 @@ AI helped me understand the tests because I didn't know originally how to use py
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+I want to reuse the habit of creating tests when working on features to ensure that I am developing accurately- as in practicing better test driven development.
+
+I would act differently by relying on AI to generate test suites as well as being cautious when AI might be guessing or hallucinating certain advice/
+
+This project changed the way I think about AI generated code because it showed me that using careful documentation and test driven development can ensure that AI generated code isn't slop.
