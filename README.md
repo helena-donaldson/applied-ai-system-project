@@ -49,4 +49,4 @@ While the numerical clues given by the AI are less likely to be limited/biased, 
 
 ## Walkthrough
 
-![Walkthrough](assets/Persona_Guesser.mp4)
+![Walkthrough](https://imgur.com/a/KgCBcL3)
