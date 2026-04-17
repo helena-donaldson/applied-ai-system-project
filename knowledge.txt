@@ -1,0 +1,6 @@
+BINARY SEARCH STRATEGY GUIDE:
+1. Definition: Binary search is an efficient algorithm for finding an item from a sorted list of items. It works by repeatedly dividing in half the portion of the list that could contain the item.
+2. The Midpoint Rule: Always guess the number exactly in the middle of your current possible range. Formula: low + (high - low) // 2.
+3. Range Elimination: If the guess is too high, the new range becomes [low, guess - 1]. If too low, it becomes [guess + 1, high].
+4. Maximum Guesses: For a range of 100, the maximum guesses needed is ceil(log2(100)) = 7.
+
