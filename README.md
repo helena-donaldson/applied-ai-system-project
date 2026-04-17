@@ -49,4 +49,4 @@ While the numerical clues given by the AI are less likely to be limited/biased, 
 
 ## Walkthrough
 
-![Walkthrough](https://imgur.com/a/KgCBcL3)
+<a href="https://imgur.com/a/KgCBcL3">Walk through</a>
